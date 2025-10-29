@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Connectra - Leading ICT Systems Integrator with 25+ years of excellence. Complete technology solutions under one umbrella for Government, Enterprises, and SMBs.">
+    <meta name="keywords" content="ICT solutions, systems integration, data center, cybersecurity, network infrastructure, IT services, government solutions, enterprise technology">
+    <meta name="author" content="Connectra">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Connectra - Complete ICT Solutions Under One Umbrella">
+    <meta property="og:description" content="25+ Years of Excellence | Trusted by Government, Enterprises & SMBs">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="Connectra">
+    
+    <title>Connectra - Complete ICT Solutions Under One Umbrella | 25+ Years of Excellence</title>
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Swiper for Carousels -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <h1 class="preloader-logo">Connectra</h1>
+                <div class="loading-line"></div>
+            </div>
+            <p class="loading-text">Loading Excellence...</p>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">Connectra</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="mega-menu-section">
+                                    <h4>Core Services</h4>
+                                    <ul>
+                                        <li><a href="services.html#data-center"><i class="fas fa-server"></i> Data Center Solutions</a></li>
+                                        <li><a href="services.html#cybersecurity"><i class="fas fa-shield-alt"></i> Cyber Security Solutions</a></li>
+                                        <li><a href="services.html#network"><i class="fas fa-network-wired"></i> Network Infrastructure</a></li>
+                                        <li><a href="services.html#it-infrastructure"><i class="fas fa-desktop"></i> IT Infrastructure</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-section">
+                                    <h4>Specialized Services</h4>
+                                    <ul>
+                                        <li><a href="services.html#cctv"><i class="fas fa-video"></i> CCTV & Security Systems</a></li>
+                                        <li><a href="services.html#development"><i class="fas fa-code"></i> Custom Development</a></li>
+                                        <li><a href="services.html#egovernment"><i class="fas fa-building"></i> E-Government Solutions</a></li>
+                                        <li><a href="services.html#cloud"><i class="fas fa-cloud"></i> Cloud Solutions</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-highlight">
+                                    <h4>Featured Solution</h4>
+                                    <div class="feature-card">
+                                        <i class="fas fa-rocket"></i>
+                                        <h5>Complete ICT Transformation</h5>
+                                        <p>End-to-end digital transformation solutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="partners.html" class="nav-link">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="industries.html" class="nav-link">Industries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <a href="contact.html" class="cta-button primary">Get Started</a>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+        <div class="mobile-menu-content">
+            <div class="mobile-menu-header">
+                <div class="mobile-logo">Connectra</div>
+                <button class="mobile-close" id="mobile-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="mobile-dropdown">
+                        <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="mobile-submenu">
+                            <li><a href="services.html#data-center">Data Center Solutions</a></li>
+                            <li><a href="services.html#cybersecurity">Cyber Security</a></li>
+                            <li><a href="services.html#network">Network Infrastructure</a></li>
+                            <li><a href="services.html#it-infrastructure">IT Infrastructure</a></li>
+                            <li><a href="services.html#cctv">CCTV & Security</a></li>
+                            <li><a href="services.html#development">Custom Development</a></li>
+                            <li><a href="services.html#egovernment">E-Government</a></li>
+                            <li><a href="services.html#cloud">Cloud Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-cta">
+                <a href="contact.html" class="cta-button primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-background">
+                <div class="animated-particles"></div>
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                    <div class="shape shape-4"></div>
+                    <div class="shape shape-5"></div>
+                </div>
+                <div class="gradient-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="container">
+                    <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="hero-title">
+                            <span class="title-line">Complete ICT Solutions</span>
+                            <span class="title-line title-highlight">Under One Umbrella</span>
+                        </h1>
+                        <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                            25+ Years of Excellence | Trusted by Government, Enterprises & SMBs
+                        </p>
+                        <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                            From data centers to cybersecurity, from network infrastructure to custom development - 
+                            we deliver comprehensive ICT solutions that transform businesses and drive digital success.
+                        </p>
+                        <div class="hero-actions" data-aos="fade-up" data-aos-delay="600">
+                            <a href="#services" class="cta-button primary pulse">
+                                <span>Discover Our Ecosystem</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#about" class="cta-button secondary">
+                                <span>Learn More</span>
+                            </a>
+                        </div>
+                        <div class="hero-stats" data-aos="fade-up" data-aos-delay="800">
+                            <div class="stat">
+                                <span class="stat-number" data-count="25">0</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="1000">0</span>
+                                <span class="stat-label">Projects Delivered</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="500">0</span>
+                                <span class="stat-label">Satisfied Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1000">
+                <div class="scroll-text">Scroll to Explore</div>
+                <div class="scroll-arrow">
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Our Expertise</span>
+                    <h2 class="section-title">Comprehensive ICT Solutions</h2>
+                    <p class="section-description">
+                        Delivering cutting-edge technology solutions across all critical business areas
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Primary Services (Larger Cards) -->
+                    <div class="service-card primary" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-background">
+                            <div class="card-gradient"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3 class="card-title">Data Center Solutions</h3>
+                            <p class="card-description">
+                                Enterprise-grade data center design, implementation, and management with cutting-edge infrastructure solutions.
+                            </p>
+                            <div class="card-features">
+                                <ul>
+                                    <li>Server Infrastructure</li>
+                                    <li>Storage Solutions</li>
+                                    <li>Virtualization</li>
+                                    <li>Disaster Recovery</li>
+                                </ul>
+                            </div>
+                            <a href="services.html#data-center" class="card-link">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="card-hover-effect"></div>
+                    </div>
+                    
+                    <div class="service-card primary" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-background">
+                            <div class="card-gradient"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3 class="card-title">Cyber Security Solutions</h3>
+                            <p class="card-description">
+                                Advanced cybersecurity frameworks protecting your digital assets with enterprise-grade security measures.
+                            </p>
+                            <div class="card-features">
+                                <ul>
+                                    <li>Network Security</li>
+                                    <li>Threat Intelligence</li>
+                                    <li>Security Operations Center</li>
+                                    <li>Incident Response</li>
+                                </ul>
+                            </div>
+                            <a href="services.html#cybersecurity" class="card-link">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="card-hover-effect"></div>
+                    </div>
+                    
+                    <div class="service-card primary" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-background">
+                            <div class="card-gradient"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3 class="card-title">Network Infrastructure</h3>
+                            <p class="card-description">
+                                Robust, scalable network solutions ensuring seamless connectivity and optimal performance across your organization.
+                            </p>
+                            <div class="card-features">
+                                <ul>
+                                    <li>LAN/WAN Design</li>
+                                    <li>Wireless Solutions</li>
+                                    <li>SD-WAN Implementation</li>
+                                    <li>Network Optimization</li>
+                                </ul>
+                            </div>
+                            <a href="services.html#network" class="card-link">
+                                Learn More <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="card-hover-effect"></div>
+                    </div>
+                    
+                    <!-- Secondary Services -->
+                    <div class="service-card secondary" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h3 class="card-title">IT Infrastructure</h3>
+                            <p class="card-description">Complete hardware solutions and infrastructure upgrades for optimal performance.</p>
+                            <a href="services.html#it-infrastructure" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card secondary" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h3 class="card-title">CCTV & Security Systems</h3>
+                            <p class="card-description">Advanced surveillance and physical security solutions with intelligent analytics.</p>
+                            <a href="services.html#cctv" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card secondary" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="card-title">Custom Development</h3>
+                            <p class="card-description">Bespoke software solutions tailored to your unique business requirements.</p>
+                            <a href="services.html#development" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card secondary" data-aos="fade-up" data-aos-delay="700">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3 class="card-title">E-Government Solutions</h3>
+                            <p class="card-description">Digital transformation solutions for government entities and public services.</p>
+                            <a href="services.html#egovernment" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card secondary" data-aos="fade-up" data-aos-delay="800">
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h3 class="card-title">Cloud Solutions</h3>
+                            <p class="card-description">Scalable cloud infrastructure and migration services for modern businesses.</p>
+                            <a href="services.html#cloud" class="card-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="partners" id="partners">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Global Excellence</span>
+                    <h2 class="section-title">Powered by Global Leaders, Trusted by Industry Pioneers</h2>
+                    <p class="section-description">
+                        Strategic partnerships with world-class technology leaders ensure we deliver cutting-edge solutions
+                    </p>
+                </div>
+                
+                <div class="partners-carousel-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="partners-carousel swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide partner-slide">
+                                <div class="partner-logo">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/06/Cisco-Logo.png" alt="Cisco" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide partner-slide">
+                                <div class="partner-logo">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/06/Microsoft-Logo.png" alt="Microsoft" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide partner-slide">
+                                <div class="partner-logo">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/06/VMware-Logo.png" alt="VMware" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide partner-slide">
+                                <div class="partner-logo">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/06/Dell-Logo.png" alt="Dell" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide partner-slide">
+                                <div class="partner-logo">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/06/HP-Logo.png" alt="HP" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-slide partner-slide">
+                                <div class="partner-logo">
+                                    <img src="https://logos-world.net/wp-content/uploads/2020/06/IBM-Logo.png" alt="IBM" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="partners-grid" data-aos="fade-up" data-aos-delay="400">
+                    <div class="partner-category">
+                        <h4>Infrastructure Partners</h4>
+                        <div class="partner-badges">
+                            <span class="partner-badge">Cisco</span>
+                            <span class="partner-badge">Dell</span>
+                            <span class="partner-badge">HP</span>
+                            <span class="partner-badge">IBM</span>
+                            <span class="partner-badge">Lenovo</span>
+                        </div>
+                    </div>
+                    <div class="partner-category">
+                        <h4>Security Partners</h4>
+                        <div class="partner-badges">
+                            <span class="partner-badge">Fortinet</span>
+                            <span class="partner-badge">Palo Alto Networks</span>
+                            <span class="partner-badge">Sophos</span>
+                            <span class="partner-badge">Milestone</span>
+                        </div>
+                    </div>
+                    <div class="partner-category">
+                        <h4>Cloud & Virtualization</h4>
+                        <div class="partner-badges">
+                            <span class="partner-badge">VMware</span>
+                            <span class="partner-badge">Microsoft</span>
+                            <span class="partner-badge">Veritas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Preview Section -->
+        <section class="about-preview" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <span class="section-subtitle">Excellence Since 1999</span>
+                        <h2 class="section-title">Why Choose Connectra</h2>
+                        <p class="section-description">
+                            With over 25 years of combined expertise, we've unified all critical ICT needs under one umbrella, 
+                            earning the trust of government entities, enterprises, and SMBs through complete, professional solutions.
+                        </p>
+                        
+                        <div class="value-propositions">
+                            <div class="value-prop" data-aos="fade-up" data-aos-delay="100">
+                                <div class="prop-icon">
+                                    <i class="fas fa-umbrella"></i>
+                                </div>
+                                <div class="prop-content">
+                                    <h4>Complete ICT Ecosystem</h4>
+                                    <p>All technology solutions under one roof - from consultation to implementation to support.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-prop" data-aos="fade-up" data-aos-delay="200">
+                                <div class="prop-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="prop-content">
+                                    <h4>Enterprise-Grade Partnerships</h4>
+                                    <p>Certified partnerships with global technology leaders ensuring world-class solutions.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-prop" data-aos="fade-up" data-aos-delay="300">
+                                <div class="prop-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="prop-content">
+                                    <h4>Multi-Industry Expertise</h4>
+                                    <p>Proven track record across Government, Finance, Healthcare, Education, and more.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-prop" data-aos="fade-up" data-aos-delay="400">
+                                <div class="prop-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="prop-content">
+                                    <h4>24/7 Professional Support</h4>
+                                    <p>Round-the-clock support and maintenance ensuring 99.9% service uptime.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-actions" data-aos="fade-up" data-aos-delay="500">
+                            <a href="about.html" class="cta-button primary">Learn Our Story</a>
+                            <a href="portfolio.html" class="cta-button secondary">View Portfolio</a>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual" data-aos="fade-left">
+                        <div class="stats-grid">
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="stat-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="stat-number" data-count="25">0</div>
+                                <div class="stat-label">Years of Excellence</div>
+                            </div>
+                            
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                                <div class="stat-icon">
+                                    <i class="fas fa-project-diagram"></i>
+                                </div>
+                                <div class="stat-number" data-count="1000">0</div>
+                                <div class="stat-label">Projects Delivered</div>
+                            </div>
+                            
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="stat-icon">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <div class="stat-number" data-count="500">0</div>
+                                <div class="stat-label">Satisfied Clients</div>
+                            </div>
+                            
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="stat-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="stat-number" data-count="99">0</div>
+                                <div class="stat-label">% Service Uptime</div>
+                            </div>
+                            
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="500">
+                                <div class="stat-icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="stat-number" data-count="50">0</div>
+                                <div class="stat-label">Certified Engineers</div>
+                            </div>
+                            
+                            <div class="stat-card" data-aos="zoom-in" data-aos-delay="600">
+                                <div class="stat-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="stat-number" data-count="20">0</div>
+                                <div class="stat-label">Global Partners</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industries Section -->
+        <section class="industries" id="industries">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Sector Expertise</span>
+                    <h2 class="section-title">Tailored Solutions for Every Industry</h2>
+                    <p class="section-description">
+                        Deep industry knowledge and specialized solutions across diverse sectors
+                    </p>
+                </div>
+                
+                <div class="industries-grid">
+                    <div class="industry-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-background">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <h3 class="card-title">Government & Public Sector</h3>
+                            <p class="card-description">E-government solutions, digital transformation, and secure infrastructure for public services.</p>
+                            <ul class="card-features">
+                                <li>Digital citizen services</li>
+                                <li>Secure communications</li>
+                                <li>Data center modernization</li>
+                            </ul>
+                        </div>
+                        <div class="card-hover-overlay"></div>
+                    </div>
+                    
+                    <div class="industry-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-background">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <h3 class="card-title">Financial Services</h3>
+                            <p class="card-description">High-security banking solutions, compliance frameworks, and mission-critical infrastructure.</p>
+                            <ul class="card-features">
+                                <li>Core banking systems</li>
+                                <li>Compliance solutions</li>
+                                <li>Fraud detection</li>
+                            </ul>
+                        </div>
+                        <div class="card-hover-overlay"></div>
+                    </div>
+                    
+                    <div class="industry-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-background">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <h3 class="card-title">Healthcare & Medical</h3>
+                            <p class="card-description">Secure patient data systems, medical imaging, and healthcare IT infrastructure.</p>
+                            <ul class="card-features">
+                                <li>Electronic health records</li>
+                                <li>Medical imaging systems</li>
+                                <li>HIPAA compliance</li>
+                            </ul>
+                        </div>
+                        <div class="card-hover-overlay"></div>
+                    </div>
+                    
+                    <div class="industry-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card-background">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3 class="card-title">Education & Academia</h3>
+                            <p class="card-description">Campus networking, e-learning platforms, and educational technology infrastructure.</p>
+                            <ul class="card-features">
+                                <li>Campus-wide networking</li>
+                                <li>Learning management systems</li>
+                                <li>Student information systems</li>
+                            </ul>
+                        </div>
+                        <div class="card-hover-overlay"></div>
+                    </div>
+                    
+                    <div class="industry-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card-background">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <h3 class="card-title">Retail & E-Commerce</h3>
+                            <p class="card-description">POS systems, inventory management, customer analytics, and omnichannel solutions.</p>
+                            <ul class="card-features">
+                                <li>Point-of-sale systems</li>
+                                <li>Inventory management</li>
+                                <li>Customer analytics</li>
+                            </ul>
+                        </div>
+                        <div class="card-hover-overlay"></div>
+                    </div>
+                    
+                    <div class="industry-card" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card-background">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-icon">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <h3 class="card-title">Manufacturing</h3>
+                            <p class="card-description">Industrial IoT, process automation, and smart manufacturing solutions.</p>
+                            <ul class="card-features">
+                                <li>Industrial IoT</li>
+                                <li>Process automation</li>
+                                <li>Manufacturing execution systems</li>
+                            </ul>
+                        </div>
+                        <div class="card-hover-overlay"></div>
+                    </div>
+                </div>
+                
+                <div class="industries-cta" data-aos="fade-up" data-aos-delay="700">
+                    <a href="industries.html" class="cta-button primary">Explore All Industries</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-background">
+                <div class="animated-gradient"></div>
+                <div class="floating-elements">
+                    <div class="float-element element-1"></div>
+                    <div class="float-element element-2"></div>
+                    <div class="float-element element-3"></div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="cta-content" data-aos="fade-up">
+                    <h2 class="cta-title">Ready to Transform Your Digital Infrastructure?</h2>
+                    <p class="cta-subtitle">Let's build your future together with comprehensive ICT solutions</p>
+                    
+                    <div class="cta-actions" data-aos="fade-up" data-aos-delay="200">
+                        <a href="contact.html" class="cta-button primary large">Start Your Transformation</a>
+                        <a href="services.html" class="cta-button secondary large">Explore Services</a>
+                        <a href="portfolio.html" class="cta-button tertiary large">View Portfolio</a>
+                    </div>
+                    
+                    <div class="cta-contact-info" data-aos="fade-up" data-aos-delay="400">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+966 11 XXX XXXX</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@connectra.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Riyadh, Saudi Arabia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-background">
+            <div class="footer-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <h3>Connectra</h3>
+                        </div>
+                        <p class="footer-description">
+                            Complete ICT solutions under one umbrella. 25+ years of excellence in delivering 
+                            comprehensive technology solutions for Government, Enterprises, and SMBs.
+                        </p>
+                        <div class="footer-trust">
+                            <div class="trust-badge">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Trusted Since 1999</span>
+                            </div>
+                            <div class="trust-badge">
+                                <i class="fas fa-award"></i>
+                                <span>ISO Certified</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="services.html#data-center">Data Center Solutions</a></li>
+                                <li><a href="services.html#cybersecurity">Cyber Security</a></li>
+                                <li><a href="services.html#network">Network Infrastructure</a></li>
+                                <li><a href="services.html#it-infrastructure">IT Infrastructure</a></li>
+                                <li><a href="services.html#cctv">CCTV & Security</a></li>
+                                <li><a href="services.html#development">Custom Development</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Industries</h4>
+                            <ul>
+                                <li><a href="industries.html#government">Government</a></li>
+                                <li><a href="industries.html#financial">Financial Services</a></li>
+                                <li><a href="industries.html#healthcare">Healthcare</a></li>
+                                <li><a href="industries.html#education">Education</a></li>
+                                <li><a href="industries.html#retail">Retail</a></li>
+                                <li><a href="industries.html#manufacturing">Manufacturing</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="partners.html">Partners</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="blog.html">Insights</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>Contact Info</h4>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Riyadh, Saudi Arabia</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>+966 11 XXX XXXX</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>info@connectra.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>24/7 Support Available</span>
+                                </div>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter" data-aos="fade-up">
+                    <div class="newsletter-content">
+                        <h4>Stay Updated with Technology Trends</h4>
+                        <p>Get the latest insights on ICT solutions and digital transformation</p>
+                    </div>
+                    <form class="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit" class="subscribe-btn">
+                                <span>Subscribe</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 Connectra. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#" class="legal-link">Privacy Policy</a>
+                        <a href="#" class="legal-link">Terms of Service</a>
+                        <a href="#" class="legal-link">Sitemap</a>
+                    </div>
+                </div>
+                
+                <div class="footer-certifications">
+                    <div class="cert-badge">ISO 27001</div>
+                    <div class="cert-badge">ISO 9001</div>
+                    <div class="cert-badge">CISSP</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
